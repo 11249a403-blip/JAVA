@@ -1,14 +1,40 @@
-import java.util.Scanner;
+class Boarder {
+    String name;
+    int days;
 
-public class main {
+    Boarder(String n, int d) {
+        name = n;
+        days = d;
+    }
+
+    double bill() {
+        return days * 85.0;
+    }
+}
+
+public class MessBill {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter the number of students: ");
-        int students = sc.nextInt();
+        Boarder[] list = {
+            new Boarder("Aravind", 28),
+            new Boarder("Divya", 30),
+            new Boarder("Karthik", 25)
+        };
 
-        System.out.println("Number of students: " + students);
+        Boarder highest = list[0];
 
-        sc.close();
+        System.out.println("NAME       DAYS     BILL");
+
+        for (Boarder b : list) {
+            System.out.printf("%-10s %4d %8.2f%n",
+                    b.name, b.days, b.bill());
+
+            if (b.bill() > highest.bill()) {
+                highest = b;
+            }
+        }
+
+        System.out.printf("%nHighest Bill: %s = Rs. %.2f%n",
+                highest.name, highest.bill());
     }
 }
