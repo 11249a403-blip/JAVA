@@ -34,3 +34,11 @@ class Main {
         payment.display();
     }
 }
+
+/*
+OUTPUT:
+
+Amount: Rs. 1000.0
+Charge: Rs. 12.0
+Total: Rs. 1012.0
+*/
