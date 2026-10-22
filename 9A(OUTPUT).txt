@@ -1,0 +1,8 @@
+A window titled BorderLayout appears with five buttons arranged as follows:
+       +-----------------------+
+       |         NORTH         |
+       +------+---------+------+
+       | WEST | CENTER  | EAST |
+       +------+---------+------+
+       |         SOUTH         |
+       +-----------------------+
