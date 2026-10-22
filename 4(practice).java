@@ -33,3 +33,10 @@ class Main {
         employee.display();
     }
 }
+
+/*
+OUTPUT:
+
+Basic Salary: Rs. 15000.0
+Total Salary: Rs. 18000.0
+*/
