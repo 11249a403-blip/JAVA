@@ -1,0 +1,4 @@
+A white background displaying:
+- Blue text: Welcome to SCSVMV
+- Red filled oval: Below the text, on the left.
+- Green filled rectangle: Below the text, on the right.
