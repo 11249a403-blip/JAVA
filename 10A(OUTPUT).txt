@@ -1,3 +1,9 @@
 REG NAME MARKS
 101    Aravind    78
 102    Divya      91
+
+FetchData.java — Output after insertion
+REG NAME MARKS
+101    Aravind    78
+102    Divya      91
+103    Karthik    45
