@@ -38,3 +38,14 @@ public class MessBill {
                 highest.name, highest.bill());
     }
 }
+
+/*
+OUTPUT:
+
+NAME       DAYS     BILL
+Aravind      28  2380.00
+Divya        30  2550.00
+Karthik      25  2125.00
+
+Highest Bill: Divya = Rs. 2550.00
+*/
