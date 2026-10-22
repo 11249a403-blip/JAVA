@@ -19,3 +19,10 @@ public class Main {
         student.display();
     }
 }
+
+/*
+OUTPUT:
+
+ID: 101
+Name: Arun
+*/
