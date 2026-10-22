@@ -15,3 +15,9 @@ class Main {
         }
     }
 }
+
+/*
+OUTPUT:
+
+Cannot divide by zero.
+*/
