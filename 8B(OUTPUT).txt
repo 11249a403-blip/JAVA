@@ -1,0 +1,4 @@
+init()
+start()
+paint()
+Note: paint() may appear multiple times. stop() and destroy() are called later, depending on the applet's lifecycle.
