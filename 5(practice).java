@@ -33,3 +33,13 @@ class Main {
         System.out.println("Final balance = " + account.balance);
     }
 }
+
+/*
+OUTPUT (one possible output):
+
+Thread-1 trying to withdraw 700
+Thread-1 Left = 1000
+Thread-2 trying to withdraw 700
+Thread-2 Insufficient balance
+Final balance = 300
+*/
