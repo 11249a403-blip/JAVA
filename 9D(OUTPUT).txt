@@ -1,0 +1,7 @@
+A window titled Login appears with username and password fields and a Login button.
+
+If username is cse and password is java:
+Login successful
+
+For any other username or password:
+Invalid user or password
