@@ -1,0 +1,3 @@
+A window displays four colored rectangles in a row: Red, Green, Blue, Yellow.
+
+Below them, a larger rectangle appears in Red initially. Clicking one of the four upper rectangles changes the larger rectangle to that color.
