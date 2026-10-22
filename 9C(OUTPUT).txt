@@ -1,0 +1,4 @@
+A window titled FlowLayout displays five buttons in a row, centered by default.
++--------------------------------+
+|  [New] [Open] [Save] [Print] [Exit] |
++--------------------------------+
